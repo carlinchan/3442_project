@@ -5,7 +5,6 @@
 # Project: Smart print bed for 3d printer
 ############################################################
 
-
 ############################################################
 # Initializing the variables
 ############################################################
@@ -34,7 +33,6 @@ sock.connect((serverMACAddress, port))
 # Initializing the senseHat
 sense = SenseHat()
 sense.clear()
-
 
 ############################################################
 # Main loop
